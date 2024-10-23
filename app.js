@@ -4,4 +4,7 @@ function App() {
   const [separationStatus, setSeparationStatus] = useState("Pending"); //pending sir
   const [healthData, setHealthData] = useState({});
   useEffect(() => {
+    const interval = setInterval(() => {
+    }
+  }
 }
