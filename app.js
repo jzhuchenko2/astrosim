@@ -5,6 +5,7 @@ function App() {
   const [healthData, setHealthData] = useState({});
   useEffect(() => {
     const interval = setInterval(() => {
+      fetch("/health")
     }
   }
 }
