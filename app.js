@@ -8,6 +8,11 @@ function App() {
       fetch("/health")
       .then(response => response.json())
       .then(data => setHealthData(data)); //collecting the data
+      
+      // Simulate separation status (replace this with real data from the backend in future)
+      if (Math.random() > 0.9) {
+        
+      }
     }
   }
 }
