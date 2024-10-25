@@ -16,5 +16,7 @@ function App() {
         setSeparationStatus("Pending");
       }
     },  1000);
+
+    return () => clearInterval(interval);
   }
 }
