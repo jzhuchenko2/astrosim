@@ -6,6 +6,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       fetch("/health")
+      .then(response => response.json())
     }
   }
 }
