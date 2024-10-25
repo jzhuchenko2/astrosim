@@ -15,6 +15,6 @@ function App() {
       } else {
         setSeparationStatus("Pending");
       }
-    }
+    },  1000);
   }
 }
