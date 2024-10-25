@@ -11,7 +11,9 @@ function App() {
       
       // Simulate separation status (replace this with real data from the backend in future)
       if (Math.random() > 0.9) {
-        
+        setSeparationStatus("Successful");
+      } else {
+        setSeparationStatus("Pending");
       }
     }
   }
