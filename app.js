@@ -7,6 +7,7 @@ function App() {
     const interval = setInterval(() => {
       fetch("/health")
       .then(response => response.json())
+      .then(data => setHealthData(data)); //collecting the data
     }
   }
 }
