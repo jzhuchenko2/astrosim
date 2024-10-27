@@ -19,4 +19,8 @@ function App() {
 
     return () => clearInterval(interval);
   }, []);
+
+  return (
+    <div className="App">
+    ) //return the app on the web
 }
