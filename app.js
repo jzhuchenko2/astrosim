@@ -22,5 +22,6 @@ function App() {
 
   return (
     <div className="App">
+    <h1>AstroSplit Dashboard</h1>
     ) //return the app on the web
 }
