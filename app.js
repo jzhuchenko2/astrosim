@@ -24,5 +24,6 @@ function App() {
     <div className="App">
     <h1>AstroSplit Dashboard</h1>
   <h2>Payload Separation Status: {separationStatus}</h2>
+  <h3>System Health</h3>
     ) //return the app on the web
 }
