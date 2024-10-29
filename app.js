@@ -25,5 +25,7 @@ function App() {
     <h1>AstroSplit Dashboard</h1>
   <h2>Payload Separation Status: {separationStatus}</h2>
   <h3>System Health</h3>
+  <ul>
+        <li>Fuel Level: {healthData.fuel_level ? healthData.fuel_level.toFixed(2) : "Loading..."}%</li>
     ) //return the app on the web
 }
