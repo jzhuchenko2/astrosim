@@ -27,6 +27,6 @@ function App() {
   <h3>System Health</h3>
   <ul>
         <li>Fuel Level: {healthData.fuel_level ? healthData.fuel_level.toFixed(2) : "Loading..."}%</li>
-        <li>Thrust Power: {healthData.thrust_power ? healthData.thrust_power.toFixed(1) : "Loading..."}%</li>
+        <li>Thrust Power: {healthData.thrust_power ? healthData.thrust_power.toFixed(2) : "Loading..."}%</li>
     ) //return the app on the web
 }
