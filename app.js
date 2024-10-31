@@ -29,5 +29,7 @@ function App() {
         <li>Fuel Level: {healthData.fuel_level ? healthData.fuel_level.toFixed(2) : "Loading..."}%</li>
         <li>Thrust Power: {healthData.thrust_power ? healthData.thrust_power.toFixed(2) : "Loading..."}%</li>
   <li>Battery Status: {healthData.battery_status || "Loading..."}</li>
+    
+    <li>Temperature: {healthData.temperature ? healthData.temperature.toFixed(1) : "Loading..."}°C</li>
     ) //return the app on the web
 }
