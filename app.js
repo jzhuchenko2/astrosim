@@ -31,5 +31,7 @@ function App() {
   <li>Battery Status: {healthData.battery_status || "Loading..."}</li>
     
     <li>Temperature: {healthData.temperature ? healthData.temperature.toFixed(1) : "Loading..."}°C</li>
-    ) //return the app on the web
+  </ul>
+    </div>
+    ); //return the app on the web
 }
