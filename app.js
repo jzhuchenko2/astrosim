@@ -35,3 +35,4 @@ function App() {
     </div>
     ); //return the app on the web
 }
+export default App;
