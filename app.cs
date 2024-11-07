@@ -20,3 +20,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-link {
+  color: #61dafb;
+}
