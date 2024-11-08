@@ -7,5 +7,6 @@ app = Flask(__name__)
 def get_system_health():
 health_data = {
         "fuel_level": random.uniform(50, 100),
+        "thrust_power": random.uniform(80, 100),
         
     }
