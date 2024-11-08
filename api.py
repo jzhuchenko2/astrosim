@@ -5,3 +5,7 @@ app = Flask(__name__)
 
 @app.route('/health', methods=['GET']) #API route
 def get_system_health():
+health_data = {
+        "fuel_level": random.uniform(50, 100),
+        
+    }
