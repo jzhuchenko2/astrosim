@@ -8,5 +8,5 @@ def get_system_health():
 health_data = {
         "fuel_level": random.uniform(50, 100),
         "thrust_power": random.uniform(80, 100),
-        
+        "battery_status": random.choice(["Normal", "Poop", "Critical"]),
     }
