@@ -12,3 +12,4 @@ health_data = {
 
         "Jettison Separation": random.choice ([3000,"MES 1", "MES 2", "MES 3" -250])
     }
+return jsonify(health_data)
