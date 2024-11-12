@@ -9,6 +9,7 @@ health_data = {
         "fuel_level": random.uniform(50, 100),
         "thrust_power": random.uniform(80, 100),
         "battery_status": random.choice(["Normal", "Poop", "Critical"]),
+        # add some more KPI. Phases??!!
 
         "Jettison Separation": random.choice ([3000,"MES 1", "MES 2", "MES 3" -250])
     }
