@@ -14,3 +14,4 @@ health_data = {
     }
 return jsonify(health_data)
 if __name__ == '__main__':
+        app.run(debug=True)
