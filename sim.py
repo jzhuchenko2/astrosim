@@ -9,4 +9,6 @@ plane_id = p.loadURDF("plane.urdf")
 payload_id = p.loadURDF("r2d2.urdf", [0, 0, 1])
 
 p.setGravity(0, 0, -9.8)
+
+#simulating payload launch and separation
 for i in range(1000):
