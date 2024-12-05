@@ -17,3 +17,4 @@ for i in range(1000):
     p.applyExternalForce(payload_id, -1, [0, 0, 100], [0, 0, 0], p.WORLD_FRAME)
 
   elif i == 300:
+    print("Separation!")
