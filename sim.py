@@ -13,5 +13,7 @@ p.setGravity(0, 0, -9.8)
 #simulating payload launch and separation
 for i in range(1000):
   
-if i < 300:
-p.applyExternalForce(payload_id, -1, [0, 0, 100], [0, 0, 0], p.WORLD_FRAME)
+  if i < 300:
+    p.applyExternalForce(payload_id, -1, [0, 0, 100], [0, 0, 0], p.WORLD_FRAME)
+
+  elif i == 300:
