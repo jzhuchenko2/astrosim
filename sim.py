@@ -22,3 +22,4 @@ for i in range(1000):
 p.resetBasePositionAndOrientation(payload_id, [0, 0, 2], [0, 0, 0, 1])
 #for each of the positions.
 
+p.stepSimulation()
