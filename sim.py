@@ -22,7 +22,3 @@ for i in range(1000):
 p.resetBasePositionAndOrientation(payload_id, [0, 0, 2], [0, 0, 0, 1])
 #for each of the positions.
 
-for i in range(200);
-  if plane(payload_id, -5)
-    print(Jettison Separation). 
-  #save next method for 12/07/24 alive
