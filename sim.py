@@ -26,3 +26,4 @@ p.stepSimulation()
 time.sleep(1./240.)
 
 while p.isConnected():
+time.sleep(1)
