@@ -14,6 +14,7 @@ p.setGravity(0, 0, -9.8)
 for i in range(1000):
   
   if i < 300:
+    # Simulate basic thrust by applying upward force to the payload
     p.applyExternalForce(payload_id, -1, [0, 0, 100], [0, 0, 0], p.WORLD_FRAME)
 
   elif i == 300:
