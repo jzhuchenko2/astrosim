@@ -26,5 +26,6 @@ p.resetBasePositionAndOrientation(payload_id, [0, 0, 2], [0, 0, 0, 1])
 p.stepSimulation()
 time.sleep(1./240.)
 
+# keeping the simulation running by preventing immediate exit
 while p.isConnected():
 time.sleep(1)
